@@ -1,0 +1,31 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules*
+/npm-debug.log*
+/yarn-error.log
+/yarn.lock
+.pnpm-debug.log
+
+# production
+dist/**/*.js
+dist/**/*.html
+dist/**/*.css
+dist/**/*.map
+dist/**/*.ts
+
+# misc
+.DS_Store
+
+
+/package-lock.json
+
+# ide
+.vscode
+.idea
+
+# other
+.history/
+_qstemplate/
+
+/.eslintcache
